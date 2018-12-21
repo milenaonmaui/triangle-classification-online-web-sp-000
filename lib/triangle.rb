@@ -13,6 +13,7 @@ class Triangle
         rescure TriangleError => error
         puts error.message
       end
+    end
     if (@side1 == @side2) && (@side2 == @side3)
       :equilateral
     else
